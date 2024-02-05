@@ -37,14 +37,16 @@ yesButton.addEventListener("click", () => {
   imgTag.src = yes;
 });
 
-
 yesButton.addEventListener("mouseenter", () => {
   imgTag.src = joyImages;
+  noButton.style.transform = "translate(" + 0 + "px, " + 0 + "px)";
   // clearStyle();
 });
 yesButton.addEventListener("mouseover", () => {
   imgTag.src = joyImages;
+  noButton.style.transform = "translate(" + 0 + "px, " + 0 + "px)";
 });
 yesButton.addEventListener("mouseout", () => {
   clearStyle();
+  noButton.style.transform = "translate(" + 0 + "px, " + 0 + "px)";
 });
